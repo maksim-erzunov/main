@@ -1,0 +1,55 @@
+html
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Мой сайт</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; }
+      header { background: #222; color: #fff; padding: 20px; text-align: center; }
+      nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+      main { padding: 40px 20px; max-width: 960px; margin: auto; }
+      .section { margin-bottom: 40px; }
+      h2 { border-bottom: 2px solid #222; padding-bottom: 8px; }
+      footer { background: #eee; text-align: center; padding: 15px; margin-top: 40px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Изготовление сборных навесов в Череповце</h1>
+      <nav>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <h2>О нас</h2>
+        <p>Здесь краткое описание компании и её миссии. Расскажи, чем ты полезен клиенту и какие проблемы решаешь.</p>
+      </section>
+
+      <section id="services" class="section">
+        <h2>Услуги</h2>
+        <ul>
+          <li>Услуга 1 — описание пользы.</li>
+          <li>Услуга 2 — описание пользы.</li>
+          <li>Услуга 3 — описание пользы.</li>
+        </ul>
+      </section>
+
+      <section id="contacts" class="section">
+        <h2>Контакты</h2>
+        <p>Телефон: +7 (962) 666-17-89</p>
+        <p>Email: 1t11@rambler.ru</p>
+        <p>Адрес: г. Череповец, ул. Устюженская, д. 89</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Изготовление сборных навесов в Череповце</p>
+    </footer>
+  </body>
+</html>
